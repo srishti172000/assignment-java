@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+		System.out.println("enter size of  array");
+		int a=sc.nextInt();
+		System.out.println("enter size of next array");
+		int b=sc.nextInt();
+		String arr[]=new String[a];
+		String arr1[]=new String[b];
+		System.out.println("enter first array");
+		for(int i=0;i<a;i++){
+		    arr[i]=sc.nextLine();
+		}
+		System.out.println("enter next array");
+		for(int j=0;j<b;j++){
+		    arr1[j]=sc.nextLine();
+		}
+		for(int i=0;i<a;i++){
+		    for(int j=0;j<b;j++){
+		        if(arr[i].equals(arr1[j]))
+		        {System.out.print(" "+arr1[j]);}
+		    }
+		}
+	}
+}
