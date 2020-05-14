@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example Cafe</title>
+</head>
+<body>
+<style>
+#h{
+border: 10px solid red;
+border-height:600px;
+margin: 100px 20px ;
+padding:30px;
+background-color:black;
+color:white;
+}
+ul{
+list-style-type:none;
+
+overflow:hidden;
+}
+li{
+float:left;
+}
+li a{
+display: block;
+padding: 8px;
+}
+</style>
+<div id="h">
+
+<h1>example<br>cafe</h1>
+<hr>
+<ul> 
+<li><a href="www.home.com">HOME</a></li>
+<li><a href="www.menu.com">MENU</a><li>
+<li><a href="www.ewcepie.com">RECEPIES</a></li>
+<li><a href="www.opening.com">OPENING</a></li>
+<li><a href="www.contact.com">CONTACT</a><li>
+</ul>
+<hr>
+<br>
+<div>
+<p style="float:left;"><img src="https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made.jpg"  width="300px" height="370px">
+<h1 style="font-size:20px;color:yellow;"s>A community cafe serving home cooked,locally sourced,organic food</h1><br>
+<p style="font-size:10px; padding:-10px;color:green";> With stunning views of the ocean, Example Cafe 
+offers the perfect environment to unwind and 
+recharge the batteries.
+</p><br>
+<p style="font-size:10px; padding:10px;color:blue;">Our menu offers a wide range of breakfasts,<br> 
+brunches and lunches, including a range of <br>
+vegetarian options.</p>
+<br>
+<p style="font-size:10px;color:pink";>Whether you sip on a fresh, hot coffee or a cooling<br> 
+smoothie, you never need to feel rushed - relax with<br> 
+friends or just watch the world go by.</p><br>
+<br>
+<h1 style="font-size:15px; float:left;color:grey;">This weekend's special brunch</h1><br>
+</div>
+<div>
+<p style="font-size:15px; float:bottom;color:orange;">This weekend, our season of special brunches continues with scrambled egg on an English muffin. Not for the faint-hearted, the secret to these eggs is<br>
+ that they are made with half cream and cooked in butter, with no more than four eggs in the pan at a time.
+</p>
+
+</div>
+</body>
+</html>
