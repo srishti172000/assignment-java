@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example Cafe</title>
+</head>
+<body>
+<style>
+#h{
+border: 10px solid powderblue;
+border-height:500px;
+margin: 100px 50px ;
+padding:30px;
+background-color:yellow;
+}
+ul{
+list-style-type:none;
+
+overflow:hidden;
+}
+li{
+float:left;
+}
+li a{
+display: block;
+padding: 8px;
+}
+</style>
+<div id="h">
+
+<h1>example<br>cafe</h1>
+<hr>
+<ul> 
+<li><a href="www.home.com">HOME</a></li>
+<li><a href="www.menu.com">MENU</a><li>
+<li><a href="www.ewcepie.com">RECEPIES</a></li>
+<li><a href="www.opening.com">OPENING</a></li>
+<li><a href="www.contact.com">CONTACT</a><li>
+</ul>
+<hr>
+<br>
+<h1 class="b">Contact</h1>
+<pre> 12 Sea View Newquery, Comwall. UK </pre>
+<a href="Google map.com">Find us on Google Maps</a><br>
+<br>
+<a href= "Email.com">Email Example Cafe</div>
+</body>
+</html>
