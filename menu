@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Eample Cafe</title>
+</head>
+<body>
+<style>
+#h{
+border: 10px solid powderblue;
+border-height:500px;
+margin: 100px 50px ;
+padding:30px;
+}
+.g{
+list-style-type:none;
+
+overflow:hidden;
+}
+.f{
+float:left;
+}
+.e{
+display: block;
+padding: 8px;
+}
+</style>
+<div id="h">
+
+<h1>example<br>cafe</h1>
+<hr>
+<ul class="g"> 
+<li class="f"><a class="e" href="www.home.com">HOME</a></li>
+<li class="f"><a class="e" href="www.menu.com">MENU</a><li>
+<li class="f"><a class="e" href="www.ewcepie.com">RECEPIES</a></li>
+<li class="f"><a class="e" href="www.opening.com">OPENING</a></li>
+<li class="f"><a class="e" href="www.contact.com">CONTACT</a><li>
+</ul>
+<hr>
+<br>
+
+<style>
+.c{
+
+margin:20px
+}
+.d{
+margin:10px;
+
+}
+</style>
+<h1 class="c" >Menu<h1><br>
+<h1 class="d" >Starter</h1>
+<ul>
+<li> Chestnut and Mushroom Goujons(v)</li>
+<li> Goat Cheese Salad (v)</li>
+<li>Honey Soy Chicken Kebabs</li>
+<li> Seafood Salad</li>
+</ul>
+<br>
+<a href="www.bacK" >Back to top</a>
+<br>
+<h1 class="c">Main Course</h1><br>
+<ul>
+<li> Spinach and Ricotta Roulade (v)</li>
+<li> Beef Tournados with Mustard and Dill Sauce </li>
+<li>Roast Chicken Salad</li>
+<li> Icelandic Cod with Parsley Sauce </li>
+<li> Mushroom Wellington (v)</li>
+</ul>
+<br>
+<a href="www.bacK" >Back to top</a>
+<br>
+<h1 class="c">Desserts</h1><br>
+<ul>
+<li> Lemon Sorbet (v)</li>
+<li> Chocolate Mud Pie (v)</li>
+<li>Pecan Pie (v)</li>
+<li> Selection of Fine Cheeses from Around the World </li>
+</ul>
+<br>
+</div>
+</body>
+</html>
