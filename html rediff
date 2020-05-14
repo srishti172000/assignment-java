@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+h2 {
+  color: red;
+  font-family: verdana;
+  font-size: 200%;
+  text-align:center;
+}
+.button {
+  background-color: #4CAF50;
+  color:yellow;
+  font-size: 30px;
+}
+</style>
+<body style="background-color:powderblue;">
+<h2>	
+Create a Rediffmail account</h2>
+
+<form>
+  <label>full name:</label>
+  <input type="text" ><br>
+  <label>choose for rediff mail id:</label>
+  <input type="text" ><br>
+  <input type="submit" value="check availability"><br>
+  <label>password:</label>
+  <input type="text"><br>
+  <label>retype password:</label>
+  <input type="text" ><br>
+  <label>alternate email address:</label>
+  <input type="text"><br>
+  <input type="checkbox">
+  <label> Click if you don't have an alternate ID
+</label><br>
+  <label>mobile no.:</label>
+  <select name ="mobile no.">
+    <option>+91</option>
+  </select>
+  <input type="text"><br>
+  <label>date of birth:</label>
+  <select>
+    <option>day</option>
+  </select>
+  <select>
+    <option>month</option>
+  </select>
+  <select>
+    <option>year</option>
+  </select><br>
+  <label>gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <label>i live in </label><br>
+  <label>country:</label>
+  <select>
+    <option>India</option>
+  </select><br>
+  <label>city</label>
+  <select>
+    <option>select</option>
+  </select><br>
+  <img src="https://register.rediff.com/register/tb135/tb_getimage.php?  uid=1589024250&start=MiUyNg==" alt="code image" width="300" height="200">
+  <br>
+  <label>enter the text shown above:</label>
+  <input type ="text"></input><br>
+  <input  class="button" type="submit" value="create my account<<">
+</form>
+
+</body>
+</html>
