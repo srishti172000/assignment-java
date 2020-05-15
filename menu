@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Eample Cafe</title>
+<title>Example Cafe</title>
 </head>
 <body>
 <style>
 #h{
 border: 10px solid powderblue;
 border-height:500px;
-margin: 100px 50px ;
-padding:30px;
+margin: 10px 50px ;
+padding:10px;
+background-color:pink;
 }
 .g{
 list-style-type:none;
-
 overflow:hidden;
 }
 .f{
@@ -40,42 +40,45 @@ padding: 8px;
 
 <style>
 .c{
-
-margin:20px
+color:yellow;
+margin:10px
 }
 .d{
-margin:10px;
-
+color:green;
+padding:10px;
+}
+.s{
+color:red;
 }
 </style>
-<h1 class="c" >Menu<h1><br>
-<h1 class="d" >Starter</h1>
+<h1 class="d" >Menu<h1><br>
+<h1 class="c" >Starter</h1>
 <ul>
-<li> Chestnut and Mushroom Goujons(v)</li>
-<li> Goat Cheese Salad (v)</li>
-<li>Honey Soy Chicken Kebabs</li>
-<li> Seafood Salad</li>
+<li class="s"> Chestnut and Mushroom Goujons(v)</li>
+<li class="s"> Goat Cheese Salad (v)</li>
+<li class="s">Honey Soy Chicken Kebabs</li>
+<li class="s"> Seafood Salad</li>
 </ul>
 <br>
 <a href="www.bacK" >Back to top</a>
 <br>
 <h1 class="c">Main Course</h1><br>
 <ul>
-<li> Spinach and Ricotta Roulade (v)</li>
-<li> Beef Tournados with Mustard and Dill Sauce </li>
-<li>Roast Chicken Salad</li>
-<li> Icelandic Cod with Parsley Sauce </li>
-<li> Mushroom Wellington (v)</li>
+<li class="s"> Spinach and Ricotta Roulade (v)</li>
+<li class="s"> Beef Tournados with Mustard and Dill Sauce </li>
+<li class="s">Roast Chicken Salad</li>
+<li class="s"> Icelandic Cod with Parsley Sauce </li>
+<li class="s"> Mushroom Wellington (v)</li>
 </ul>
 <br>
 <a href="www.bacK" >Back to top</a>
 <br>
 <h1 class="c">Desserts</h1><br>
 <ul>
-<li> Lemon Sorbet (v)</li>
-<li> Chocolate Mud Pie (v)</li>
-<li>Pecan Pie (v)</li>
-<li> Selection of Fine Cheeses from Around the World </li>
+<li class="s"> Lemon Sorbet (v)</li>
+<li class="s"> Chocolate Mud Pie (v)</li>
+<li class="s">Pecan Pie (v)</li>
+<li class="s"> Selection of Fine Cheeses from Around the World </li>
 </ul>
 <br>
 </div>
